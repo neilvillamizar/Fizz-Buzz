@@ -11,10 +11,12 @@ void solve_fizz_buzz(int n){
     
     if( n%3 == 0){
         cout << "Fizz";
+        return;
     }
     
     if( n%5 == 0){
         cout << "Buzz";
+        return;
     }
     
     cout << n;
